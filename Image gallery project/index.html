@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Image Gallery</title>
   <link rel="stylesheet" href="style.css" />
@@ -17,23 +17,21 @@
   </header>
 
   <div id="gallery">
-    <!-- Images grouped by date -->
-    <!-- Repeat this block with different images/dates -->
     <section class="date-group">
       <h2>Captured on: 2025-07-15</h2>
       <div class="images">
         <img src="https://www.bing.com/th/id/OIP.roHntiwsK2sQ73ICkLPmaAHaE8?w=222&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Car" data-category="cars" />
         <img src="https://th.bing.com/th/id/R.4a1f13308294eef83026456bee45cbc8?rik=7kH62xQW0YHTMQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f1%2fe%2f1200208-4k-ultra-hd-nature-wallpaper-3840x2160-4k.jpg&ehk=2eUewHmpLRBIU2mm5kX4BAQJ4EdRapxBaVIfuiqYqE0%3d&risl=1&pid=ImgRaw&r=0" alt="Nature" data-category="nature" />
-        <!-- Add more images here -->
+        
       </div>
     </section>
-    <!-- Repeat similar sections for other dates -->
+    
   </div>
 
   <div id="lightbox" onclick="closeLightbox()">
     <img id="lightbox-img" src="" alt="Enlarged" />
-    <button id="prev" onclick="prevImage()">⟨</button>
-    <button id="next" onclick="nextImage()">⟩</button>
+    <button id="prev" onclick="prevImage()"></button>
+    <button id="next" onclick="nextImage()"></button>
   </div>
 
   <script src="script.js"></script>
